@@ -1,0 +1,88 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 1/10/2022, 1:48:50 p. m.
+    Author     : lenovo
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #89f7fe 0%, #66a6ff 100%);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+}
+
+.cuadro{
+    background-color: azure;
+    width: 80%;
+    margin: auto;
+    max-width: 500px;
+    border-radius: 1em;
+    padding: 2.5em 1.5em;
+    text-align: center;
+}
+
+.b1, .b2{
+    margin: 10px;
+    background-color: antiquewhite;
+    border-radius: .5em;
+    padding: auto;
+}
+
+.form{
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    max-width: 500px;
+    border-radius: 1em;
+    padding: 2.5em 1.5em;
+}
+
+.form_container{
+    width: 100%;
+    display: grid;
+    grid-auto-columns: 100%;    
+    position: relative;
+}
+
+.motivo{
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+    max-height: 500px;
+    max-width: 100%;
+    width: 25rem;
+    margin: 1rem 0;
+}
+
+.entrada{
+    font-family: inherit;
+}
+
+.form_title{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+
+
+.form_cta{
+    font-family: inherit;
+}
+
+@media(max-width:450px) {
+    .form{
+        padding: 3.5em 1em;
+    }
+}
